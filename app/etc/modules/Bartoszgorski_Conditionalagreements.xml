@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bartoszgorski_Conditionalagreements>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Bartoszgorski_Conditionalagreements>
+    </modules>
+</config>
