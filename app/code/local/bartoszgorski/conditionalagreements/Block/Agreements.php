@@ -7,8 +7,7 @@
  */
 class Bartoszgorski_Conditionalagreements_Block_Agreements extends Mage_Checkout_Block_Agreements
 {
-    public function getAgreements()
-    {
+    public function getAgreements() {
         if(Mage::helper('conditionalagreements')->checkIfQuoteRequiresAgreements() == true) {
             return parent::getAgreements();
         } else {
