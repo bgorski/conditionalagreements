@@ -4,7 +4,7 @@
  * @category       Bartoszgorski
  * @package        Bartoszgorski_Conditionalagreements
  * @copyright      Copyright (c) 2012 Bartosz Górski
- * @license        Massachusetts Institute of Technology License
+ * @license        Massachusetts Institute of Technology License 
  */
 class Bartoszgorski_Conditionalagreements_Block_Agreements extends Mage_Checkout_Block_Agreements
 {

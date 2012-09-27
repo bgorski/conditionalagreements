@@ -3,8 +3,8 @@
  * @author         Bartosz Górski (bartosz.m.gorski@gmail.com)
  * @category       Bartoszgorski
  * @package        Bartoszgorski_Conditionalagreements
- * @copyright      Copyright (c) 2012 Bartosz Górski
- * $license        Massachusetts Institute of Technology License
+ * @copyright      Copyright (c) 2012 Bartosz Górski 
+ * @license        Massachusetts Institute of Technology License
  */
 class Bartoszgorski_Conditionalagreements_Helper_Data extends Mage_Checkout_Helper_Data {
     /**

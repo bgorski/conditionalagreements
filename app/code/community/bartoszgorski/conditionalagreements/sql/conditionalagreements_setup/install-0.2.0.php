@@ -4,7 +4,7 @@
  * @category       Bartoszgorski
  * @package        Bartoszgorski_Conditionalagreements
  * @copyright      Copyright (c) 2012 Bartosz Górski
- * $license        Massachusetts Institute of Technology License
+ * @license        Massachusetts Institute of Technology License
  */
 $installer = $this;
 /* @var $setup Mage_Eav_Model_Entity_Setup */
