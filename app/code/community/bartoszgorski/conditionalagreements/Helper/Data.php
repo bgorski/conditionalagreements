@@ -4,8 +4,13 @@
  * @category       Bartoszgorski
  * @package        Bartoszgorski_Conditionalagreements
  * @copyright      Copyright (c) 2012 Bartosz Górski
+ * $license        Massachusetts Institute of Technology License
  */
 class Bartoszgorski_Conditionalagreements_Helper_Data extends Mage_Checkout_Helper_Data {
+    /**
+     * Gets IDs of enabled Terms and Conditions
+     * @return array 
+     */
     public function getRequiredAgreementIds()
     {
         if($this->checkIfQuoteRequiresAgreements() == true) {
@@ -25,6 +30,11 @@ class Bartoszgorski_Conditionalagreements_Helper_Data extends Mage_Checkout_Help
         }
     }
     
+    /**
+     * Checks if there is at least one product in the quote item, that require
+     * showing Terms and Conditions
+     * @return boolean 
+     */
     public function checkIfQuoteRequiresAgreements() {
         $showAgreements = false;
         $quote = Mage::getSingleton('checkout/session')->getQuote();

@@ -3,7 +3,7 @@
     <modules>
         <Bartoszgorski_Conditionalagreements>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Bartoszgorski_Conditionalagreements>
     </modules>
 </config>

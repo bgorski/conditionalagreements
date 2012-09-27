@@ -1,11 +1,15 @@
 <?php
-
+/**
+ * @author         Bartosz Górski (bartosz.m.gorski@gmail.com)
+ * @category       Bartoszgorski
+ * @package        Bartoszgorski_Conditionalagreements
+ * @copyright      Copyright (c) 2012 Bartosz Górski
+ * $license        Massachusetts Institute of Technology License
+ */
 $installer = $this;
-//$setup = new Mage_Eav_Model_Entity_Setup('core_setup');
 /* @var $setup Mage_Eav_Model_Entity_Setup */
 $setup = Mage::getModel('eav/entity_setup','core_setup');
 $installer->startSetup(); 
-// the attribute added will be displayed under the group/tab Special Attributes in product edit page
 $setup->addAttribute('catalog_product', 'conditional_agreements', array(
     'input'         => 'boolean',
     'type'          => 'int',
