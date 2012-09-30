@@ -11,8 +11,7 @@ class Bartoszgorski_Conditionalagreements_Helper_Data extends Mage_Checkout_Help
      * Gets IDs of enabled Terms and Conditions
      * @return array 
      */
-    public function getRequiredAgreementIds()
-    {
+    public function getRequiredAgreementIds() {
         if($this->checkIfQuoteRequiresAgreements() == true) {
             if (is_null($this->_agreements)) {
                 if (!Mage::getStoreConfigFlag('checkout/options/enable_agreements')) {
