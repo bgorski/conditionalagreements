@@ -4,6 +4,10 @@
         <Bartoszgorski_Conditionalagreements>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Eav/>
+                <Mage_Catalog/>
+            </depends>
         </Bartoszgorski_Conditionalagreements>
     </modules>
 </config>

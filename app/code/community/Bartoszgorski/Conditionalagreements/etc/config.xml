@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
         <Bartoszgorski_Conditionalagreements>
-            <version>1.0.1</version>
+            <version>1.0.3</version>
         </Bartoszgorski_Conditionalagreements>
     </modules>
     <global>
@@ -34,9 +34,6 @@
                     <module>Bartoszgorski_Conditionalagreements</module>
                     <class>Bartoszgorski_Conditionalagreements_Model_Resource_Eav_Mysql4_Setup</class>
                 </setup>
-                <connection>
-                    <use>core_setup</use>
-                </connection>
             </conditionalagreements_setup>
             <conditionalagreements_write>
                 <connection>
@@ -45,7 +42,7 @@
             </conditionalagreements_write>
             <conditionalagreements_read>
                 <connection>
-                    <use>core_read</use>
+                    <use>default_read</use>
                 </connection>
             </conditionalagreements_read>
         </resources>

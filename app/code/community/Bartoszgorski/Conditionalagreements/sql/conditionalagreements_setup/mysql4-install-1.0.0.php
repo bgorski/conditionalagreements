@@ -7,10 +7,8 @@
  * @license        Massachusetts Institute of Technology License
  */
 $installer = $this;
-/* @var $setup Mage_Eav_Model_Entity_Setup */
-$setup = Mage::getModel('eav/entity_setup','core_setup');
 $installer->startSetup(); 
-$setup->addAttribute('catalog_product', 'conditional_agreements', array(
+$installer->addAttribute('catalog_product', 'conditional_agreements', array(
     'input'         => 'boolean',
     'type'          => 'int',
     'default'       => '0',
